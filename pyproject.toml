@@ -1,0 +1,12 @@
+[project]
+name = "demo-wsl-chrome-agent"
+version = "1.0.0"
+description = "Demo using Agno to execute a task with chrome-devtools under WSL2"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "agno>=2.2.6",
+    "groq>=0.33.0",
+    "mcp>=1.20.0",
+    "python-dotenv>=1.2.1",
+]
